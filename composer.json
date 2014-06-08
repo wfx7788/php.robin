@@ -1,0 +1,13 @@
+{
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/josey-yu/php.robin.workspace"
+        }
+    ],
+    "require": {
+    	"josey-yu/php.robin.workspace": "dev-master",
+        "ccampbell/chromephp": "4.1.0"
+        
+    }
+}
