@@ -2,11 +2,11 @@
 	"repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/paladiny/php.robin.workspace"
+            "url": "https://github.com/paladinly/php.robin.workspace"
         }
     ],
     "require": {
-    	"paladiny/php.robin.workspace": "dev-master",
+    	"paladinly/php.robin.workspace": "dev-master",
         "ccampbell/chromephp": "4.1.0"
         
     }
