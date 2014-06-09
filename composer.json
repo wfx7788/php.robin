@@ -6,7 +6,7 @@
         }
     ],
     "require": {
-    	"josey-yu/php.robin.workspace": "dev-master",
+    	"paladiny/php.robin.workspace": "dev-master",
         "ccampbell/chromephp": "4.1.0"
         
     }
