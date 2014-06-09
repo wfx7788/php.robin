@@ -1,6 +1,6 @@
 安装：
 <pre>
-git clone https://github.com/paladiny/php.robin.git robin
+git clone https://github.com/paladinly/php.robin.git robin
 cd robin
 php setup.php
 init
