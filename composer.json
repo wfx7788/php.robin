@@ -2,7 +2,7 @@
 	"repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/josey-yu/php.robin.workspace"
+            "url": "https://github.com/paladiny/php.robin.workspace"
         }
     ],
     "require": {
