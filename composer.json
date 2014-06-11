@@ -7,7 +7,8 @@
     ],
     "require": {
     	"paladinly/php.robin.workspace": "dev-master",
-        "ccampbell/chromephp": "4.1.0"
+        "ccampbell/chromephp": "4.1.0",
+        "sunra/php-simple-html-dom-parser": "v1.5.0"
         
     }
 }
