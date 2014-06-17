@@ -19,26 +19,32 @@ class Setup
     public static function init()
     {
     	//$HOME
-		$composer = '/bin/composer';
+	$composer = '/bin/composer';
 		
-		$shell = 'sudo curl -sS https://getcomposer.org/installer | sudo php -d detect_unicode=Off';
-		system($shell);
+	$shell = 'sudo curl -sS https://getcomposer.org/installer | sudo php -d detect_unicode=Off';
+	system($shell);
 		
-		$shell = 'sudo mv composer.phar ' . $composer;
-		system($shell);
+	$shell = 'sudo mv composer.phar ' . $composer;
+	system($shell);
 		
-		$shell = 'sudo chmod +x ' . $composer;
-		system($shell);
+	$shell = 'sudo chmod +x ' . $composer;
+	system($shell);
 
-		$shell = 'composer install';
-		system($shell);
-	}
+	$shell = 'composer install';
+	system($shell);
+		
+	$shell = 'sudo mkdir compile';
+	system($shell);
+		
+	$shell = 'sudo chmod -R 777 compile';
+	system($shell);
+    }
 	
-	public static function update()
+    public static function update()
     {
-		$shell = 'composer update';
-		system($shell);
-	}
+	$shell = 'composer update';
+	system($shell);
+    }
 
     public static function git()
     {
